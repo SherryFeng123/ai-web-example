@@ -4,7 +4,7 @@ from scipy.io.wavfile import write as wavwrite
 import os
 from sklearn.preprocessing import LabelEncoder
 import keras
-from keras.models import load_model
+#from keras.models import load_model
 from werkzeug.utils import secure_filename
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, render_template
 from tensorflow import keras
@@ -18,7 +18,8 @@ classes = list(le.classes_)
 ALLOWED_EXTENSIONS = {'wav', 'mp3'}
 dirname = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = dirname + "/temp/"
-loaded_model = keras.models.load_model('/my_model')
+model_folder = dirname+ "/my_model"
+loaded_model = keras.models.load_model(model_folder)
 
 # Create Flask App
 app = Flask(__name__)
@@ -59,4 +60,4 @@ def classify_and_show_results():
     return render_template("results.html", filename=filename, prediction=prediction)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    app.run(debug=True)
