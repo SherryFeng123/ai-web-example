@@ -9,9 +9,7 @@ from werkzeug.utils import secure_filename
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, render_template
 from tensorflow import keras
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
-loaded_model = keras.models.load_model('my_model')
 labels = ["on", "off", "stop", "go", "yes", "no", "up", "down", "left", "right"]
 le = LabelEncoder()
 y = le.fit_transform(labels)
@@ -20,6 +18,7 @@ classes = list(le.classes_)
 ALLOWED_EXTENSIONS = {'wav', 'mp3'}
 dirname = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = dirname + "/temp/"
+loaded_model = keras.models.load_model('/my_model')
 
 # Create Flask App
 app = Flask(__name__)
