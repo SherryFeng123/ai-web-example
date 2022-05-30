@@ -6,7 +6,6 @@ import sklearn
 import librosa
 import os
 from sklearn.preprocessing import LabelEncoder
-import numpy as np
 from keras.models import load_model
 from werkzeug.utils import secure_filename
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, render_template
