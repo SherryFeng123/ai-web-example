@@ -1,12 +1,9 @@
 import numpy as np
-import scipy
 from scipy.io import wavfile
 from scipy.io.wavfile import write as wavwrite
-import sklearn
-import librosa
 import os
 from sklearn.preprocessing import LabelEncoder
-from keras.models import load_model
+#from keras.models import load_model
 from werkzeug.utils import secure_filename
 from flask import Flask, flash, request, redirect, url_for, send_from_directory, render_template
 from tensorflow import keras
