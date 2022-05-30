@@ -1,68 +1,70 @@
 absl-py==1.0.0
-appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
+appdirs==1.4.4
 astunparse==1.6.3
-audioread @ file:///D:/bld/audioread_1649550387308/work
-brotlipy @ file:///D:/bld/brotlipy_1648854327487/work
+audioread==2.1.9
+brotlipy==0.7.0
 cachetools==5.1.0
 certifi==2022.5.18.1
-cffi @ file:///D:/bld/cffi_1636046278333/work
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1644853463426/work
-click @ file:///C:/ci/click_1646038595831/work
-colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
-cryptography @ file:///D:/bld/cryptography_1652967266737/work
-cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1635519461629/work
-decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
-Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+cffi==1.15.0
+charset-normalizer==2.0.12
+click==8.0.4
+colorama==0.4.4
+cryptography==37.0.2
+cycler==0.11.0
+decorator==5.1.1
+Flask==2.0.3
 flatbuffers==1.12
-fonttools @ file:///D:/bld/fonttools_1651018206941/work
+fonttools==4.33.3
 gast==0.4.0
 google-auth==2.6.6
 google-auth-oauthlib==0.4.6
 google-pasta==0.2.0
 grpcio==1.46.3
 h5py==3.7.0
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1642433548627/work
+idna==3.3
 importlib-metadata==4.11.4
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
-joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
+itsdangerous==2.0.1
+Jinja2==3.0.3
+joblib==1.1.0
 keras==2.9.0
 Keras-Preprocessing==1.1.2
-kiwisolver @ file:///D:/bld/kiwisolver_1648854553193/work
+kiwisolver==1.4.2
 libclang==14.0.1
-librosa @ file:///home/conda/feedstock_root/build_artifacts/librosa_1644967835314/work
+librosa==0.9.1
 llvmlite==0.38.1
 Markdown==3.3.7
-MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
-matplotlib @ file:///D:/bld/matplotlib-suite_1651609646819/work
+MarkupSafe==2.0.1
+matplotlib==3.5.2
 mkl-fft==1.3.1
-mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-random==1.2.2
 mkl-service==2.4.0
 munkres==1.1.4
-numba @ file:///D:/bld/numba_1652226932339/work
+numba==0.55.1
 numpy==1.22.4
 oauthlib==3.2.0
 opt-einsum==3.3.0
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1637239678211/work
-Pillow @ file:///D:/bld/pillow_1652815137200/work
+packaging==21.3
+Pillow==9.1.1
+pip==21.2.4
 pip-gun==1.0.1
-pooch @ file:///home/conda/feedstock_root/build_artifacts/pooch_1643032624649/work
+pooch==1.6.0
 protobuf==3.19.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
-pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1643496850550/work
-pyparsing @ file:///home/conda/feedstock_root/build_artifacts/pyparsing_1652235407899/work
-PySocks @ file:///D:/bld/pysocks_1648857426942/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1641580202195/work
+pycparser==2.21
+pyOpenSSL==22.0.0
+pyparsing==3.0.9
+PySocks==1.7.1
+python-dateutil==2.8.2
+requests==2.27.1
 requests-oauthlib==1.3.1
 resampy==0.2.2
 rsa==4.8
-scikit-learn @ file:///C:/ci/scikit-learn_1642617276183/work
-scipy @ file:///C:/ci/scipy_1641555170412/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-SoundFile @ file:///home/conda/feedstock_root/build_artifacts/pysoundfile_1607011569782/work
+scikit-learn==1.0.2
+scipy==1.7.3
+setuptools==61.2.0
+six==1.16.0
+SoundFile==0.10.3.post1
 tensorboard==2.9.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
@@ -70,12 +72,13 @@ tensorflow==2.9.1
 tensorflow-estimator==2.9.0
 tensorflow-io-gcs-filesystem==0.26.0
 termcolor==1.1.0
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+threadpoolctl==2.2.0
 typing_extensions==4.2.0
-unicodedata2 @ file:///D:/bld/unicodedata2_1649112114189/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1647489083693/work
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1651670883478/work
-win-inet-pton @ file:///D:/bld/win_inet_pton_1648771910527/work
+unicodedata2==14.0.0
+urllib3==1.26.9
+Werkzeug==2.1.2
+wheel==0.37.1
+win-inet-pton==1.1.0
 wincertstore==0.2
 wrapt==1.14.1
 zipp==3.8.0
