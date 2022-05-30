@@ -16,9 +16,6 @@ Flask==2.0.3
 flatbuffers==1.12
 fonttools==4.33.3
 gast==0.4.0
-google-auth==2.6.6
-google-auth-oauthlib==0.4.6
-google-pasta==0.2.0
 grpcio==1.46.3
 h5py==3.7.0
 idna==3.3
@@ -32,14 +29,10 @@ kiwisolver==1.4.2
 libclang==14.0.1
 librosa==0.9.1
 llvmlite==0.38.1
-Markdown==3.3.7
-MarkupSafe==2.0.1
 munkres==1.1.4
 numpy==1.21.5
-oauthlib==3.2.0
 opt-einsum==3.3.0
 packaging==21.3
-Pillow==9.1.1
 pip==21.2.4
 pip-gun==1.0.1
 pooch==1.6.0
@@ -63,7 +56,7 @@ SoundFile==0.10.3.post1
 tensorboard==2.9.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-tensorflow==2.9.1
+tensorflow-cpu==2.9.1
 tensorflow-estimator==2.9.0
 tensorflow-io-gcs-filesystem==0.26.0
 termcolor==1.1.0
@@ -75,4 +68,3 @@ Werkzeug==2.1.2
 wheel==0.37.1
 win-inet-pton==1.1.0
 wincertstore==0.2
-wrapt==1.14.1
