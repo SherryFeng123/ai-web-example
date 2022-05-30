@@ -34,9 +34,6 @@ librosa==0.9.1
 llvmlite==0.38.1
 Markdown==3.3.7
 MarkupSafe==2.0.1
-matplotlib==3.5.2
-mkl-random==1.2.2
-mkl-service==2.4.0
 munkres==1.1.4
 numba==0.55.1
 numpy==1.22.4
