@@ -27,7 +27,7 @@ google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 grpcio==1.42.0
 gunicorn==20.1.0
-h5py==3.6.0
+h5py==3.1.0
 idna==3.3
 importlib-metadata==4.11.3
 itsdangerous==2.0.1
@@ -69,7 +69,7 @@ SoundFile==0.10.3.post1
 tensorboard==2.6.0
 tensorboard-data-server==0.6.0
 tensorboard-plugin-wit==1.8.1
-tensorflow-cpu==2.6.0
+tensorflow==2.6.0
 tensorflow-estimator==2.6.0
 termcolor==1.1.0
 threadpoolctl==3.1.0
